@@ -1,3 +1,5 @@
+require 'pry'
+
 
 def wheres_the_number(number)
     
@@ -19,6 +21,7 @@ loop do
 puts ''
 puts "Enter any number ('q' to quit)"
 answer = gets.chomp
+
 break if (answer == 'q') || ('a'..'z').cover?(answer)
 
 wheres_the_number(answer.to_i)
