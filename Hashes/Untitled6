@@ -1,0 +1,9 @@
+
+
+words = ['demo','none', 'tied', 'evil', 'dome', 'live',
+        'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
+        'flow', 'neon']
+        
+words.group_by {|word| puts word.char.sort }
+
+
